@@ -108,7 +108,6 @@ export default class Header extends Component {
                     <div className="col-md-12">
                         <Route exact path="/" component={Home}></Route>
                         <Route exact path="/about" component={About}></Route>
-                        <Route exact path="/login" component={login}></Route>
                         <Route exact path="/category" component={Category}></Route>
                         <Route exact path="/category/add" component={Category}></Route>
                         <Route exact path="/category/edit/:id" component={Category}></Route>
@@ -118,6 +117,7 @@ export default class Header extends Component {
                         <Route exact path="/dashboard/penduduk" component={Penduduk}></Route>
                         <Route exact path="/dashboard/penduduk/add" component={Penduduk}></Route>
                         <Route exact path="/dashboard/penduduk/edit/:id" component={Penduduk}></Route>
+                        <Route exact path="/login" component={Login}></Route>
                     </div>
                 </div>
                 </div>

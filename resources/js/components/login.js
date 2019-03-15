@@ -1,6 +1,6 @@
-import React,{Component} from 'react'
+import React, { Component } from 'react';
 import Axios from 'axios'
-export class Login extends Component{
+export default class Login extends Component{
     constructor(){
         super()
         this.onSubmit.bind(this);
